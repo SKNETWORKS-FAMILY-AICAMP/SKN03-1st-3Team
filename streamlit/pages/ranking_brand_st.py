@@ -24,7 +24,7 @@ st.page_link("./pages/ranking_model_st.py", label="모델별")
 
 selected_month = st.selectbox(
         "브랜드 별 데이터를 조회 할 월을 선택해주세요",
-        ("%0d월"%i for i in range(1,13,1))
+        ("%0d월"%i for i in range(1,7,1))
     )
 
 sql = """
